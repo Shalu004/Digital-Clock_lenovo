@@ -1,1 +1,28 @@
 
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e2f;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-size: 60px;
+    color: #00ffcc;
+    background: #111;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,204,0.5);
+}
